@@ -1,5 +1,5 @@
 # COMP485-1
 Flixster App
-Features  include: 
+(features include: 
 Networking and Parsing JSON
-RecyclerView implementation
+RecyclerView implementation )
