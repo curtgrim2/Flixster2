@@ -32,3 +32,7 @@ The main challenge I had was just continuing to get used to the intricacies of A
 
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Androids
+<<<<<<< HEAD
+=======
+
+>>>>>>> 64d9792 (Create README.md)
