@@ -19,7 +19,7 @@ import com.bumptech.glide.Glide;
 import com.example.flixster.DetailActivity;
 import com.example.flixster.Movie;
 import com.example.flixster.R;
-
+//
 import org.parceler.Parcels;
 
 import java.util.List;

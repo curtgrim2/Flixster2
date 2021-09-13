@@ -20,6 +20,8 @@ import java.util.List;
 import adapters.MovieAdapter;
 import okhttp3.Headers;
 
+import static com.example.flixster.DetailActivity.VIDEOS_URL;
+
 public class MainActivity extends AppCompatActivity {
 
     public static final String NOW_PLAYING_URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed";
@@ -42,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         AsyncHttpClient client = new AsyncHttpClient();
+        //client.get(String.format(VIDEOS_URL, 209112) new JsonHttpResponseHandler();
         client.get(NOW_PLAYING_URL, new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Headers headers, JSON json) {
